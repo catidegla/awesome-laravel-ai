@@ -13,7 +13,9 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const NAME_PATTERN = /^[a-z0-9]([_.-]?[a-z0-9]+)*\/[a-z0-9]([_.-]?[a-z0-9]+)*$/;
 const SUMMARY_MIN = 20;
 const SUMMARY_MAX = 240;
-const EM_DASH = '—';
+// Summaries land in markdown tables that get read in terminals and pasted
+// into shells. Non-ASCII punctuation mangles in both, so it is rejected.
+const SMART_PUNCTUATION = /[–—‘’“”…]/;
 
 const errors = [];
 const fail = (msg) => errors.push(msg);
@@ -60,7 +62,8 @@ for (const pkg of data.packages ?? []) {
     if (summary.length < SUMMARY_MIN) fail(`${id} summary is too short, write a real sentence`);
     if (summary.length > SUMMARY_MAX) fail(`${id} summary is over ${SUMMARY_MAX} characters`);
     if (!/[.!?]$/.test(summary.trim())) fail(`${id} summary should end with a full stop`);
-    if (summary.includes(EM_DASH)) fail(`${id} summary contains an em dash, use a comma or a full stop`);
+    const smart = summary.match(SMART_PUNCTUATION);
+    if (smart) fail(`${id} summary contains non-ASCII punctuation (${JSON.stringify(smart[0])}), use the ASCII equivalent`);
   }
 
   if (pkg.badge && !['official', 'popular'].includes(pkg.badge)) {

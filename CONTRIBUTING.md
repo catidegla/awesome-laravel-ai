@@ -63,5 +63,5 @@ CI runs `validate.mjs` and `refresh.mjs` on every pull request, so a typo in a p
 ## Style
 
 - Write summaries in plain language. Say what the thing does, not how transformative it is.
-- No em dashes. The validator rejects them.
+- Keep punctuation ASCII. Em dashes, curly quotes and ellipsis characters turn into mojibake in Windows consoles and in anything that assumes latin-1. The validator rejects them.
 - Compare honestly. "Predates the official package and still ships features it lacks" is useful. "Blazing fast" is not.
