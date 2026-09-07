@@ -1,0 +1,44 @@
+name: CI
+
+# Runs on pull requests. Structural checks first because they are instant and
+# catch most mistakes, then a live resolve so a PR adding a package that does
+# not exist, or one that is archived, cannot be merged.
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Structure
+        run: node scripts/validate.mjs
+
+      - name: Resolve every package against Packagist and GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/refresh.mjs
+
+      - name: Report health warnings
+        run: |
+          node -e "
+            const m = require('./data/metrics.json');
+            if (!m.warnings.length) { console.log('No health warnings.'); process.exit(0); }
+            console.log('Health warnings:');
+            for (const w of m.warnings) console.log('  - ' + w);
+          "

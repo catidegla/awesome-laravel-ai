@@ -1,0 +1,34 @@
+name: Report a dead or wrong entry
+description: A listed package is abandoned, renamed, or described inaccurately.
+title: 'Fix: vendor/package'
+labels: [correction]
+body:
+  - type: input
+    id: packagist
+    attributes:
+      label: Which entry
+      placeholder: vendor/package
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong
+      options:
+        - Abandoned or archived
+        - Renamed or moved
+        - Description is inaccurate
+        - Wrong category
+        - Superseded by something else
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Details
+      description: Link to the archive notice, the replacement package, or whatever else makes the case.
+    validations:
+      required: true

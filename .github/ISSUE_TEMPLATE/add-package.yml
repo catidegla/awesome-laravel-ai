@@ -1,0 +1,59 @@
+name: Suggest a package
+description: Propose something for the list without opening a pull request.
+title: 'Add: vendor/package'
+labels: [suggestion]
+body:
+  - type: input
+    id: packagist
+    attributes:
+      label: Packagist name
+      description: The vendor/package name exactly as it appears on Packagist.
+      placeholder: prism-php/prism
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Multi-Provider Abstractions
+        - Provider SDKs and Clients
+        - Model Context Protocol
+        - Agents and Orchestration
+        - RAG, Vectors and Embeddings
+        - AI-Assisted Development
+        - Evaluation and Observability
+        - Token Optimization
+        - Content and Discoverability
+        - Utilities
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What does it do
+      description: One or two sentences. What it does and when someone would reach for it over the alternatives already listed.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Checks
+      options:
+        - label: It is installable from Packagist.
+          required: true
+        - label: It has had a commit in the last twelve months.
+          required: true
+        - label: It is not already on the list under a different name.
+          required: true
+
+  - type: checkboxes
+    id: author
+    attributes:
+      label: Disclosure
+      options:
+        - label: I maintain this package. (Fine either way, just say so.)
+          required: false

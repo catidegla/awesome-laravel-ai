@@ -1,0 +1,57 @@
+name: Refresh
+
+# Pulls live figures from Packagist and GitHub, regenerates the README, and
+# commits only when something actually moved. Doubles as a health check: the
+# run fails if any listed package stops resolving.
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/packages.json'
+      - 'scripts/**'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate the dataset
+        run: node scripts/validate.mjs
+
+      - name: Pull live metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/refresh.mjs
+
+      - name: Regenerate README
+        run: node scripts/render.mjs
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "Nothing moved today."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/metrics.json README.md
+          git commit -m "Refresh package metrics"
+          git push
