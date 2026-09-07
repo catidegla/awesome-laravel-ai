@@ -119,8 +119,8 @@ Packages that make coding agents measurably better at working on Laravel codebas
 | [laravel/boost](https://github.com/laravel/boost) `official` | 3.6K | 32.7M | First-party. Feeds coding agents accurate, version-specific Laravel context plus app introspection tools. Install this before blaming the model. |
 | [joshcirre/instruckt-laravel](https://github.com/joshcirre/instruckt-laravel) | 174 | 43.2K | Visual feedback loop so a coding agent can see the page it just changed. |
 | [mischasigtermans/laravel-altitude](https://github.com/mischasigtermans/laravel-altitude) | 122 | 23.7K | Agent definitions tuned for the TALL stack. |
-| [promptphp/deck](https://github.com/promptphp/deck) | 110 | 9.7K | Versioned, file-based prompt management. Treats prompts as reviewable artifacts instead of strings buried in a controller. |
 | [spatie/boost-spatie-guidelines](https://github.com/spatie/boost-spatie-guidelines) | 109 | 309.5K | Spatie house style as Boost guidelines, so generated code matches how the ecosystem actually writes Laravel. |
+| [promptphp/deck](https://github.com/promptphp/deck) | 109 | 9.7K | Versioned, file-based prompt management. Treats prompts as reviewable artifacts instead of strings buried in a controller. |
 | [spatie/guidelines-skills](https://github.com/spatie/guidelines-skills) | 90 | 168.4K | The same guidelines packaged as portable agent skills. |
 | [mrpunyapal/laravel-auditor](https://github.com/MrPunyapal/laravel-auditor) | 45 | 2K | Read-only context tools plus an evidence-based audit methodology for reviewing an unfamiliar codebase. |
 | [andreapollastri/larapilot](https://github.com/andreapollastri/larapilot) | 19 | 436 | Spec-driven workflow: discovery, backlog and planning before any code gets generated. |
