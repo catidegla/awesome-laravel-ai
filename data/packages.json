@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "title": "Awesome Laravel AI",
+    "tagline": "Actively maintained packages for building AI features, agents, and MCP servers in Laravel."
+  },
+  "categories": [
+    {
+      "id": "abstractions",
+      "title": "Multi-Provider Abstractions",
+      "blurb": "One API across OpenAI, Anthropic, Gemini, Ollama and the rest. Start here if you would rather not be locked to a single vendor."
+    },
+    {
+      "id": "clients",
+      "title": "Provider SDKs and Clients",
+      "blurb": "Thin, direct clients for when you only target one provider and want its full surface area."
+    },
+    {
+      "id": "mcp",
+      "title": "Model Context Protocol",
+      "blurb": "Expose your Laravel app as tools an agent can call, or consume MCP servers from inside your app."
+    },
+    {
+      "id": "agents",
+      "title": "Agents and Orchestration",
+      "blurb": "Multi-step reasoning, tool calling, memory, and background agent runs."
+    },
+    {
+      "id": "rag",
+      "title": "RAG, Vectors and Embeddings",
+      "blurb": "Chunking, embedding, storage and retrieval over your own application data."
+    },
+    {
+      "id": "devtools",
+      "title": "AI-Assisted Development",
+      "blurb": "Packages that make coding agents measurably better at working on Laravel codebases."
+    },
+    {
+      "id": "evals",
+      "title": "Evaluation and Observability",
+      "blurb": "Know whether your AI feature works, and what it costs, before your users tell you."
+    },
+    {
+      "id": "tokens",
+      "title": "Token Optimization",
+      "blurb": "Fit more context into fewer tokens."
+    },
+    {
+      "id": "content",
+      "title": "Content and Discoverability",
+      "blurb": "Making a Laravel app legible to crawlers and answer engines."
+    },
+    {
+      "id": "utilities",
+      "title": "Utilities",
+      "blurb": "Focused single-purpose tools that did not fit anywhere else."
+    }
+  ],
+  "packages": [
+    {
+      "packagist": "prism-php/prism",
+      "category": "abstractions",
+      "summary": "The de facto standard. Unified text generation, structured output, embeddings and tool calling across every major provider, with a fluent Laravel-native API.",
+      "badge": "popular"
+    },
+    {
+      "packagist": "theodo-group/llphant",
+      "category": "abstractions",
+      "summary": "Full generative AI toolkit for PHP: chat, embeddings, vector stores and question answering. Framework agnostic with Laravel bindings."
+    },
+    {
+      "packagist": "cognesy/instructor-php",
+      "category": "abstractions",
+      "summary": "Structured output done properly. Define a PHP class, get back a validated instance instead of hand-parsing JSON out of a string."
+    },
+    {
+      "packagist": "neuron-core/neuron-laravel",
+      "category": "abstractions",
+      "summary": "Official Laravel SDK for Neuron, covering agents, RAG and workflows behind one interface."
+    },
+    {
+      "packagist": "moe-mizrak/laravel-openrouter",
+      "category": "abstractions",
+      "summary": "OpenRouter integration, which gets you several hundred models through a single credential."
+    },
+    {
+      "packagist": "openai-php/laravel",
+      "category": "clients",
+      "summary": "The most widely installed AI package in the Laravel world. Facade, config publishing and full OpenAI API coverage.",
+      "badge": "popular"
+    },
+    {
+      "packagist": "openai-php/client",
+      "category": "clients",
+      "summary": "The framework-agnostic core that the Laravel adapter wraps. Use it directly outside Laravel."
+    },
+    {
+      "packagist": "google-gemini-php/laravel",
+      "category": "clients",
+      "summary": "Gemini for Laravel from the same team behind the OpenAI client, so the API shape will feel familiar.",
+      "badge": "popular"
+    },
+    {
+      "packagist": "cloudstudio/ollama-laravel",
+      "category": "clients",
+      "summary": "Talk to locally hosted models through Ollama. The obvious starting point if you want inference that never leaves your machine.",
+      "badge": "popular"
+    },
+    {
+      "packagist": "anthropic-ai/sdk",
+      "category": "clients",
+      "summary": "Official Anthropic PHP SDK for the Claude API."
+    },
+    {
+      "packagist": "mozex/anthropic-laravel",
+      "category": "clients",
+      "summary": "Laravel integration for Anthropic: facade, config publishing and streaming."
+    },
+    {
+      "packagist": "claude-php/claude-php-sdk-laravel",
+      "category": "clients",
+      "summary": "Community Claude SDK with a Laravel service provider."
+    },
+    {
+      "packagist": "deepseek-php/deepseek-php-client",
+      "category": "clients",
+      "summary": "Community-driven DeepSeek client, useful when cost per token is the deciding factor."
+    },
+    {
+      "packagist": "deepseek-php/deepseek-laravel",
+      "category": "clients",
+      "summary": "The Laravel service provider for the DeepSeek client above."
+    },
+    {
+      "packagist": "laravel/mcp",
+      "category": "mcp",
+      "summary": "First-party MCP server support from the Laravel core team. Routes, tools, resources and prompts declared the way you would declare anything else in Laravel.",
+      "badge": "official"
+    },
+    {
+      "packagist": "php-mcp/laravel",
+      "category": "mcp",
+      "summary": "Mature independent SDK. Attribute-driven tool discovery and multiple transports. Predates the official package and still ships features it lacks."
+    },
+    {
+      "packagist": "opgginc/laravel-mcp-server",
+      "category": "mcp",
+      "summary": "Production-oriented server built around secure remote transports rather than stdio."
+    },
+    {
+      "packagist": "kirschbaum-development/laravel-loop",
+      "category": "mcp",
+      "summary": "MCP server that exposes Eloquent models and app actions with an auth layer in front of them."
+    },
+    {
+      "packagist": "lucianotonet/laravel-telescope-mcp",
+      "category": "mcp",
+      "summary": "Puts Telescope entries in front of an agent so it can read your queries and exceptions while debugging."
+    },
+    {
+      "packagist": "onelearningcommunity/laravel-model-explorer",
+      "category": "mcp",
+      "summary": "Zero-config browser UI and MCP server for exploring Eloquent models and their relationships."
+    },
+    {
+      "packagist": "anilcancakir/laravel-agent-mcp",
+      "category": "mcp",
+      "summary": "Deliberately read-only. A sane default when you want an agent to inspect production without being able to touch it."
+    },
+    {
+      "packagist": "redberry/mcp-client-laravel",
+      "category": "mcp",
+      "summary": "The other direction: consume any configured MCP server from inside your Laravel app."
+    },
+    {
+      "packagist": "mattiasgeniar/filament-mcp",
+      "category": "mcp",
+      "summary": "Exposes Filament resources over MCP."
+    },
+    {
+      "packagist": "maestroerror/laragent",
+      "category": "agents",
+      "summary": "Agents as Laravel classes. Chat history, tools and per-agent configuration with very little ceremony.",
+      "badge": "popular"
+    },
+    {
+      "packagist": "fomvasss/laravel-ai-tasks",
+      "category": "agents",
+      "summary": "Task orchestrator with routing, queueing, budget caps and audit logging. Worth reading before you build your own."
+    },
+    {
+      "packagist": "alidaaer/laravel-ai-agent",
+      "category": "agents",
+      "summary": "Agents that execute application actions behind an explicit permission model."
+    },
+    {
+      "packagist": "moneo/laravel-rag",
+      "category": "rag",
+      "summary": "Driver-based end to end RAG pipeline: ingest, chunk, embed, retrieve."
+    },
+    {
+      "packagist": "benbjurstrom/pgvector-scout",
+      "category": "rag",
+      "summary": "pgvector driver for Laravel Scout. If you already run Postgres, this is the shortest path to semantic search."
+    },
+    {
+      "packagist": "mcpuishor/qdrant-laravel",
+      "category": "rag",
+      "summary": "Fluent Qdrant client for when you outgrow a table with a vector column."
+    },
+    {
+      "packagist": "droath/laravel-text-chunker",
+      "category": "rag",
+      "summary": "Strategy-based text chunking. Chunk quality decides retrieval quality, so this matters more than it looks."
+    },
+    {
+      "packagist": "devilsberg/laravel-mariadb-vector",
+      "category": "rag",
+      "summary": "Native MariaDB 11.7+ vector columns through Eloquent, with no extra service to run."
+    },
+    {
+      "packagist": "brynj-digital/laravel-scout-vectorize",
+      "category": "rag",
+      "summary": "Cloudflare Vectorize driver for Laravel Scout."
+    },
+    {
+      "packagist": "vlados/laravel-related-content",
+      "category": "rag",
+      "summary": "Related content links built from pgvector embeddings."
+    },
+    {
+      "packagist": "eznix86/laravel-ai-memory",
+      "category": "rag",
+      "summary": "Persistent agent memory with semantic search and reranking."
+    },
+    {
+      "packagist": "laravel/boost",
+      "category": "devtools",
+      "summary": "First-party. Feeds coding agents accurate, version-specific Laravel context plus app introspection tools. Install this before blaming the model.",
+      "badge": "official"
+    },
+    {
+      "packagist": "spatie/boost-spatie-guidelines",
+      "category": "devtools",
+      "summary": "Spatie house style as Boost guidelines, so generated code matches how the ecosystem actually writes Laravel."
+    },
+    {
+      "packagist": "spatie/guidelines-skills",
+      "category": "devtools",
+      "summary": "The same guidelines packaged as portable agent skills."
+    },
+    {
+      "packagist": "joshcirre/instruckt-laravel",
+      "category": "devtools",
+      "summary": "Visual feedback loop so a coding agent can see the page it just changed."
+    },
+    {
+      "packagist": "mischasigtermans/laravel-altitude",
+      "category": "devtools",
+      "summary": "Agent definitions tuned for the TALL stack."
+    },
+    {
+      "packagist": "andreapollastri/larapilot",
+      "category": "devtools",
+      "summary": "Spec-driven workflow: discovery, backlog and planning before any code gets generated."
+    },
+    {
+      "packagist": "sandermuller/package-boost-laravel",
+      "category": "devtools",
+      "summary": "Agent skills aimed specifically at people authoring Laravel packages."
+    },
+    {
+      "packagist": "mrpunyapal/laravel-auditor",
+      "category": "devtools",
+      "summary": "Read-only context tools plus an evidence-based audit methodology for reviewing an unfamiliar codebase."
+    },
+    {
+      "packagist": "promptphp/deck",
+      "category": "devtools",
+      "summary": "Versioned, file-based prompt management. Treats prompts as reviewable artifacts instead of strings buried in a controller."
+    },
+    {
+      "packagist": "pestphp/pest-plugin-evals",
+      "category": "evals",
+      "summary": "Evals as Pest tests. LLM-as-judge and semantic assertions running in the same suite as everything else.",
+      "badge": "official"
+    },
+    {
+      "packagist": "padosoft/eval-harness",
+      "category": "evals",
+      "summary": "Golden dataset harness for RAG and LLM pipelines."
+    },
+    {
+      "packagist": "larswiegers/laravel-ai-evaluation",
+      "category": "evals",
+      "summary": "Lightweight eval runner for AI features."
+    },
+    {
+      "packagist": "spectra-php/laravel-spectra",
+      "category": "evals",
+      "summary": "Observability for LLM calls: traces, token counts and spend, inside your own app."
+    },
+    {
+      "packagist": "helgesverre/toon",
+      "category": "tokens",
+      "summary": "Token-Oriented Object Notation. Noticeably cheaper than JSON when you are stuffing structured data into a prompt."
+    },
+    {
+      "packagist": "mischasigtermans/laravel-toon",
+      "category": "tokens",
+      "summary": "TOON encoder and decoder wired into Laravel."
+    },
+    {
+      "packagist": "yethee/tiktoken",
+      "category": "tokens",
+      "summary": "PHP tiktoken port. Count tokens before you send them, not after the invoice arrives."
+    },
+    {
+      "packagist": "rajentrivedi/tokenizer-x",
+      "category": "tokens",
+      "summary": "Counts the tokens a prompt will cost across several model families."
+    },
+    {
+      "packagist": "schaefersoft/laravel-llms-txt",
+      "category": "content",
+      "summary": "Generates llms.txt and llms-full.txt so crawlers get a clean map of your site."
+    },
+    {
+      "packagist": "hszope/laravel-aigeo",
+      "category": "content",
+      "summary": "Generative engine optimization helpers for getting products surfaced inside AI answers."
+    },
+    {
+      "packagist": "relaticle/ink",
+      "category": "content",
+      "summary": "Filament-native publishing that emits AI-citable article markup."
+    },
+    {
+      "packagist": "statikbe/laravel-ai-translation",
+      "category": "utilities",
+      "summary": "Modular AI translation gateway for Laravel language files."
+    },
+    {
+      "packagist": "eslam-reda-div/filament-copilot",
+      "category": "utilities",
+      "summary": "Drops an AI copilot panel into a Filament admin."
+    },
+    {
+      "packagist": "halilcosdu/laravel-chatbot",
+      "category": "utilities",
+      "summary": "Laravel-native chatbot built on the OpenAI Responses API."
+    },
+    {
+      "packagist": "cboxdk/statamic-mcp",
+      "category": "utilities",
+      "summary": "MCP server for Statamic v6, if your Laravel app happens to be a Statamic site."
+    }
+  ]
+}
