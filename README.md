@@ -75,7 +75,7 @@ Expose your Laravel app as tools an agent can call, or consume MCP servers from 
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [laravel/mcp](https://github.com/laravel/mcp) `official` | 809 | 34.4M | First-party MCP server support from the Laravel core team. Routes, tools, resources and prompts declared the way you would declare anything else in Laravel. |
+| [laravel/mcp](https://github.com/laravel/mcp) `official` | 809 | 34.5M | First-party MCP server support from the Laravel core team. Routes, tools, resources and prompts declared the way you would declare anything else in Laravel. |
 | [php-mcp/laravel](https://github.com/php-mcp/laravel) | 476 | 224.7K | Mature independent SDK. Attribute-driven tool discovery and multiple transports. Predates the official package and still ships features it lacks. |
 | [opgginc/laravel-mcp-server](https://github.com/opgginc/laravel-mcp-server) | 332 | 71.1K | Production-oriented server built around secure remote transports rather than stdio. |
 | [kirschbaum-development/laravel-loop](https://github.com/kirschbaum-development/laravel-loop) | 132 | 20.1K | MCP server that exposes Eloquent models and app actions with an auth layer in front of them. |
@@ -116,7 +116,7 @@ Packages that make coding agents measurably better at working on Laravel codebas
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [laravel/boost](https://github.com/laravel/boost) `official` | 3.6K | 32.8M | First-party. Feeds coding agents accurate, version-specific Laravel context plus app introspection tools. Install this before blaming the model. |
+| [laravel/boost](https://github.com/laravel/boost) `official` | 3.6K | 32.7M | First-party. Feeds coding agents accurate, version-specific Laravel context plus app introspection tools. Install this before blaming the model. |
 | [joshcirre/instruckt-laravel](https://github.com/joshcirre/instruckt-laravel) | 174 | 43.2K | Visual feedback loop so a coding agent can see the page it just changed. |
 | [mischasigtermans/laravel-altitude](https://github.com/mischasigtermans/laravel-altitude) | 122 | 23.7K | Agent definitions tuned for the TALL stack. |
 | [promptphp/deck](https://github.com/promptphp/deck) | 110 | 9.7K | Versioned, file-based prompt management. Treats prompts as reviewable artifacts instead of strings buried in a controller. |
