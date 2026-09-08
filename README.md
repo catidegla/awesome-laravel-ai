@@ -24,6 +24,8 @@ Every entry is resolved against the Packagist and GitHub APIs on a schedule. Sta
 
 Five packages were dropped before the first commit for exactly that reason. A list that only grows is a list that stops being useful.
 
+The general Laravel lists are much larger and better established, `chiraggude/awesome-laravel` alone has over 13,000 stars, but they predate this category and carry almost none of it. That gap is the reason for a separate list, not any complaint about theirs.
+
 <!-- LIST:START -->
 
 _58 packages. Figures refreshed 2026-09-08._
