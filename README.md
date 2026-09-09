@@ -22,7 +22,7 @@ So this one checks itself.
 
 Every entry is resolved against the Packagist and GitHub APIs on a schedule. Star counts and install counts you see below are pulled automatically, not typed in by hand and left to rot. More importantly, the same job flags packages that get **archived**, **abandoned**, or go **quiet for over a year**, and those get marked or removed.
 
-Five packages were dropped before the first commit for exactly that reason. A list that only grows is a list that stops being useful.
+Five packages were dropped before the first commit for exactly that reason.
 
 The general Laravel lists are much larger and better established, `chiraggude/awesome-laravel` alone has over 13,000 stars, but they predate this category and carry almost none of it. That gap is the reason for a separate list, not any complaint about theirs.
 
