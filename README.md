@@ -28,7 +28,7 @@ The general Laravel lists are much larger and better established, `chiraggude/aw
 
 <!-- LIST:START -->
 
-_58 packages. Figures refreshed 2026-09-30._
+_58 packages. Figures refreshed 2026-10-01._
 
 ## Contents
 
@@ -49,11 +49,11 @@ One API across OpenAI, Anthropic, Gemini, Ollama and the rest. Start here if you
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [prism-php/prism](https://github.com/prism-php/prism) `popular` | 2.4K | 7M | The de facto standard. Unified text generation, structured output, embeddings and tool calling across every major provider, with a fluent Laravel-native API. |
-| [theodo-group/llphant](https://github.com/LLPhant/LLPhant) | 1.7K | 530.6K | Full generative AI toolkit for PHP: chat, embeddings, vector stores and question answering. Framework agnostic with Laravel bindings. |
-| [cognesy/instructor-php](https://github.com/cognesy/instructor-php) | 328 | 137.9K | Structured output done properly. Define a PHP class, get back a validated instance instead of hand-parsing JSON out of a string. |
-| [moe-mizrak/laravel-openrouter](https://github.com/moe-mizrak/laravel-openrouter) | 158 | 250.7K | OpenRouter integration, which gets you several hundred models through a single credential. |
-| [neuron-core/neuron-laravel](https://github.com/neuron-core/neuron-laravel) | 122 | 72K | Official Laravel SDK for Neuron, covering agents, RAG and workflows behind one interface. |
+| [prism-php/prism](https://github.com/prism-php/prism) `popular` | 2.4K | 7.1M | The de facto standard. Unified text generation, structured output, embeddings and tool calling across every major provider, with a fluent Laravel-native API. |
+| [theodo-group/llphant](https://github.com/LLPhant/LLPhant) | 1.7K | 533.6K | Full generative AI toolkit for PHP: chat, embeddings, vector stores and question answering. Framework agnostic with Laravel bindings. |
+| [cognesy/instructor-php](https://github.com/cognesy/instructor-php) | 328 | 138K | Structured output done properly. Define a PHP class, get back a validated instance instead of hand-parsing JSON out of a string. |
+| [moe-mizrak/laravel-openrouter](https://github.com/moe-mizrak/laravel-openrouter) | 158 | 252K | OpenRouter integration, which gets you several hundred models through a single credential. |
+| [neuron-core/neuron-laravel](https://github.com/neuron-core/neuron-laravel) | 122 | 72.7K | Official Laravel SDK for Neuron, covering agents, RAG and workflows behind one interface. |
 
 ## Provider SDKs and Clients
 
@@ -62,14 +62,14 @@ Thin, direct clients for when you only target one provider and want its full sur
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
 | [openai-php/laravel](https://github.com/openai-php/laravel) `popular` | 3.8K | 12M | The most widely installed AI package in the Laravel world. Facade, config publishing and full OpenAI API coverage. |
-| [google-gemini-php/laravel](https://github.com/google-gemini-php/laravel) `popular` | 643 | 779.9K | Gemini for Laravel from the same team behind the OpenAI client, so the API shape will feel familiar. |
-| [cloudstudio/ollama-laravel](https://github.com/cloudstudio/ollama-laravel) `popular` | 478 | 151K | Talk to locally hosted models through Ollama. The obvious starting point if you want inference that never leaves your machine. |
-| [openai-php/client](https://github.com/openai-php/client) | 5.8K | 34.5M | The framework-agnostic core that the Laravel adapter wraps. Use it directly outside Laravel. |
-| [deepseek-php/deepseek-php-client](https://github.com/deepseek-php/deepseek-php-client) | 473 | 112.8K | Community-driven DeepSeek client, useful when cost per token is the deciding factor. |
-| [deepseek-php/deepseek-laravel](https://github.com/deepseek-php/deepseek-laravel) | 401 | 46.2K | The Laravel service provider for the DeepSeek client above. |
-| [anthropic-ai/sdk](https://github.com/anthropics/anthropic-sdk-php) | 186 | 2M | Official Anthropic PHP SDK for the Claude API. |
-| [mozex/anthropic-laravel](https://github.com/mozex/anthropic-laravel) | 74 | 461.2K | Laravel integration for Anthropic: facade, config publishing and streaming. |
-| [claude-php/claude-php-sdk-laravel](https://github.com/claude-php/Claude-PHP-SDK-Laravel) | 53 | 32.3K | Community Claude SDK with a Laravel service provider. |
+| [google-gemini-php/laravel](https://github.com/google-gemini-php/laravel) `popular` | 643 | 783.8K | Gemini for Laravel from the same team behind the OpenAI client, so the API shape will feel familiar. |
+| [cloudstudio/ollama-laravel](https://github.com/cloudstudio/ollama-laravel) `popular` | 478 | 151.3K | Talk to locally hosted models through Ollama. The obvious starting point if you want inference that never leaves your machine. |
+| [openai-php/client](https://github.com/openai-php/client) | 5.8K | 34.7M | The framework-agnostic core that the Laravel adapter wraps. Use it directly outside Laravel. |
+| [deepseek-php/deepseek-php-client](https://github.com/deepseek-php/deepseek-php-client) | 473 | 113.3K | Community-driven DeepSeek client, useful when cost per token is the deciding factor. |
+| [deepseek-php/deepseek-laravel](https://github.com/deepseek-php/deepseek-laravel) | 401 | 46.3K | The Laravel service provider for the DeepSeek client above. |
+| [anthropic-ai/sdk](https://github.com/anthropics/anthropic-sdk-php) | 187 | 2M | Official Anthropic PHP SDK for the Claude API. |
+| [mozex/anthropic-laravel](https://github.com/mozex/anthropic-laravel) | 74 | 463.3K | Laravel integration for Anthropic: facade, config publishing and streaming. |
+| [claude-php/claude-php-sdk-laravel](https://github.com/claude-php/Claude-PHP-SDK-Laravel) | 53 | 32.4K | Community Claude SDK with a Laravel service provider. |
 
 ## Model Context Protocol
 
@@ -77,15 +77,15 @@ Expose your Laravel app as tools an agent can call, or consume MCP servers from 
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [laravel/mcp](https://github.com/laravel/mcp) `official` | 846 | 40.1M | First-party MCP server support from the Laravel core team. Routes, tools, resources and prompts declared the way you would declare anything else in Laravel. |
-| [php-mcp/laravel](https://github.com/php-mcp/laravel) | 476 | 263.6K | Mature independent SDK. Attribute-driven tool discovery and multiple transports. Predates the official package and still ships features it lacks. |
-| [opgginc/laravel-mcp-server](https://github.com/opgginc/laravel-mcp-server) | 331 | 75K | Production-oriented server built around secure remote transports rather than stdio. |
+| [laravel/mcp](https://github.com/laravel/mcp) `official` | 845 | 40.5M | First-party MCP server support from the Laravel core team. Routes, tools, resources and prompts declared the way you would declare anything else in Laravel. |
+| [php-mcp/laravel](https://github.com/php-mcp/laravel) | 476 | 265.8K | Mature independent SDK. Attribute-driven tool discovery and multiple transports. Predates the official package and still ships features it lacks. |
+| [opgginc/laravel-mcp-server](https://github.com/opgginc/laravel-mcp-server) | 331 | 75.3K | Production-oriented server built around secure remote transports rather than stdio. |
 | [kirschbaum-development/laravel-loop](https://github.com/kirschbaum-development/laravel-loop) | 133 | 20.5K | MCP server that exposes Eloquent models and app actions with an auth layer in front of them. |
-| [lucianotonet/laravel-telescope-mcp](https://github.com/lucianotonet/laravel-telescope-mcp) | 23 | 50.6K | Puts Telescope entries in front of an agent so it can read your queries and exceptions while debugging. |
-| [redberry/mcp-client-laravel](https://github.com/RedberryProducts/mcp-client-laravel) | 13 | 138.6K | The other direction: consume any configured MCP server from inside your Laravel app. |
-| [mattiasgeniar/filament-mcp](https://github.com/mattiasgeniar/filament-mcp) | 11 | 1.8K | Exposes Filament resources over MCP. |
-| [onelearningcommunity/laravel-model-explorer](https://github.com/One-Learning-Community/laravel-model-explorer) | 7 | 83.2K | Zero-config browser UI and MCP server for exploring Eloquent models and their relationships. |
-| [anilcancakir/laravel-agent-mcp](https://github.com/anilcancakir/laravel-agent-mcp) | 5 | 72.9K | Deliberately read-only. A sane default when you want an agent to inspect production without being able to touch it. |
+| [lucianotonet/laravel-telescope-mcp](https://github.com/lucianotonet/laravel-telescope-mcp) | 23 | 50.9K | Puts Telescope entries in front of an agent so it can read your queries and exceptions while debugging. |
+| [redberry/mcp-client-laravel](https://github.com/RedberryProducts/mcp-client-laravel) | 13 | 139.8K | The other direction: consume any configured MCP server from inside your Laravel app. |
+| [mattiasgeniar/filament-mcp](https://github.com/mattiasgeniar/filament-mcp) | 11 | 1.9K | Exposes Filament resources over MCP. |
+| [onelearningcommunity/laravel-model-explorer](https://github.com/One-Learning-Community/laravel-model-explorer) | 7 | 84.4K | Zero-config browser UI and MCP server for exploring Eloquent models and their relationships. |
+| [anilcancakir/laravel-agent-mcp](https://github.com/anilcancakir/laravel-agent-mcp) | 5 | 74.6K | Deliberately read-only. A sane default when you want an agent to inspect production without being able to touch it. |
 
 ## Agents and Orchestration
 
@@ -93,7 +93,7 @@ Multi-step reasoning, tool calling, memory, and background agent runs.
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [maestroerror/laragent](https://github.com/MaestroError/LarAgent) `popular` | 645 | 221.2K | Agents as Laravel classes. Chat history, tools and per-agent configuration with very little ceremony. |
+| [maestroerror/laragent](https://github.com/MaestroError/LarAgent) `popular` | 645 | 222.9K | Agents as Laravel classes. Chat history, tools and per-agent configuration with very little ceremony. |
 | [fomvasss/laravel-ai-tasks](https://github.com/fomvasss/laravel-ai-tasks) | 40 | 5.1K | Task orchestrator with routing, queueing, budget caps and audit logging. Worth reading before you build your own. |
 | [alidaaer/laravel-ai-agent](https://github.com/alidaaer/Laravel-AI-Agent) | 29 | 1.8K | Agents that execute application actions behind an explicit permission model. |
 
@@ -107,10 +107,10 @@ Chunking, embedding, storage and retrieval over your own application data.
 | [moneo/laravel-rag](https://github.com/moneo/laravel-rag) | 40 | 22 | Driver-based end to end RAG pipeline: ingest, chunk, embed, retrieve. |
 | [eznix86/laravel-ai-memory](https://github.com/eznix86/laravel-ai-memory) | 31 | 79 | Persistent agent memory with semantic search and reranking. |
 | [vlados/laravel-related-content](https://github.com/vlados/laravel-related-content) | 15 | 1.3K | Related content links built from pgvector embeddings. |
-| [mcpuishor/qdrant-laravel](https://github.com/mcpuishor/qdrant-laravel) | 11 | 18.4K | Fluent Qdrant client for when you outgrow a table with a vector column. |
+| [mcpuishor/qdrant-laravel](https://github.com/mcpuishor/qdrant-laravel) | 11 | 18.5K | Fluent Qdrant client for when you outgrow a table with a vector column. |
 | [devilsberg/laravel-mariadb-vector](https://github.com/erik-ros-devilsberg/laravel-mariadb-vector) | 9 | 2K | Native MariaDB 11.7+ vector columns through Eloquent, with no extra service to run. |
-| [brynj-digital/laravel-scout-vectorize](https://github.com/brynj-digital/laravel-scout-vectorize) | 8 | 337 | Cloudflare Vectorize driver for Laravel Scout. |
-| [droath/laravel-text-chunker](https://github.com/droath/laravel-text-chunker) | 3 | 2K | Strategy-based text chunking. Chunk quality decides retrieval quality, so this matters more than it looks. |
+| [brynj-digital/laravel-scout-vectorize](https://github.com/brynj-digital/laravel-scout-vectorize) | 8 | 339 | Cloudflare Vectorize driver for Laravel Scout. |
+| [droath/laravel-text-chunker](https://github.com/droath/laravel-text-chunker) | 3 | 2.1K | Strategy-based text chunking. Chunk quality decides retrieval quality, so this matters more than it looks. |
 
 ## AI-Assisted Development
 
@@ -118,15 +118,15 @@ Packages that make coding agents measurably better at working on Laravel codebas
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [laravel/boost](https://github.com/laravel/boost) `official` | 3.6K | 37.9M | First-party. Feeds coding agents accurate, version-specific Laravel context plus app introspection tools. Install this before blaming the model. |
-| [joshcirre/instruckt-laravel](https://github.com/joshcirre/instruckt-laravel) | 175 | 52.5K | Visual feedback loop so a coding agent can see the page it just changed. |
-| [mischasigtermans/laravel-altitude](https://github.com/mischasigtermans/laravel-altitude) | 122 | 27.2K | Agent definitions tuned for the TALL stack. |
-| [promptphp/deck](https://github.com/promptphp/deck) | 113 | 13.1K | Versioned, file-based prompt management. Treats prompts as reviewable artifacts instead of strings buried in a controller. |
-| [spatie/boost-spatie-guidelines](https://github.com/spatie/boost-spatie-guidelines) | 109 | 355.9K | Spatie house style as Boost guidelines, so generated code matches how the ecosystem actually writes Laravel. |
-| [spatie/guidelines-skills](https://github.com/spatie/guidelines-skills) | 91 | 219.4K | The same guidelines packaged as portable agent skills. |
-| [mrpunyapal/laravel-auditor](https://github.com/MrPunyapal/laravel-auditor) | 52 | 18.4K | Read-only context tools plus an evidence-based audit methodology for reviewing an unfamiliar codebase. |
-| [andreapollastri/larapilot](https://github.com/andreapollastri/larapilot) | 21 | 761 | Spec-driven workflow: discovery, backlog and planning before any code gets generated. |
-| [sandermuller/package-boost-laravel](https://github.com/SanderMuller/package-boost-laravel) | 1 | 7.4K | Agent skills aimed specifically at people authoring Laravel packages. |
+| [laravel/boost](https://github.com/laravel/boost) `official` | 3.6K | 38.3M | First-party. Feeds coding agents accurate, version-specific Laravel context plus app introspection tools. Install this before blaming the model. |
+| [joshcirre/instruckt-laravel](https://github.com/joshcirre/instruckt-laravel) | 175 | 52.7K | Visual feedback loop so a coding agent can see the page it just changed. |
+| [mischasigtermans/laravel-altitude](https://github.com/mischasigtermans/laravel-altitude) | 122 | 27.3K | Agent definitions tuned for the TALL stack. |
+| [promptphp/deck](https://github.com/promptphp/deck) | 113 | 13.3K | Versioned, file-based prompt management. Treats prompts as reviewable artifacts instead of strings buried in a controller. |
+| [spatie/boost-spatie-guidelines](https://github.com/spatie/boost-spatie-guidelines) | 109 | 360.5K | Spatie house style as Boost guidelines, so generated code matches how the ecosystem actually writes Laravel. |
+| [spatie/guidelines-skills](https://github.com/spatie/guidelines-skills) | 91 | 222.3K | The same guidelines packaged as portable agent skills. |
+| [mrpunyapal/laravel-auditor](https://github.com/MrPunyapal/laravel-auditor) | 52 | 19.9K | Read-only context tools plus an evidence-based audit methodology for reviewing an unfamiliar codebase. |
+| [andreapollastri/larapilot](https://github.com/andreapollastri/larapilot) | 21 | 781 | Spec-driven workflow: discovery, backlog and planning before any code gets generated. |
+| [sandermuller/package-boost-laravel](https://github.com/SanderMuller/package-boost-laravel) | 1 | 7.5K | Agent skills aimed specifically at people authoring Laravel packages. |
 
 ## Evaluation and Observability
 
@@ -134,10 +134,10 @@ Know whether your AI feature works, and what it costs, before your users tell yo
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [pestphp/pest-plugin-evals](https://github.com/pestphp/pest-plugin-evals) `official` | 5 | 112.4K | Evals as Pest tests. LLM-as-judge and semantic assertions running in the same suite as everything else. |
+| [pestphp/pest-plugin-evals](https://github.com/pestphp/pest-plugin-evals) `official` | 5 | 115.9K | Evals as Pest tests. LLM-as-judge and semantic assertions running in the same suite as everything else. |
 | [spectra-php/laravel-spectra](https://github.com/spectra-php/laravel-spectra) | 20 | 4.4K | Observability for LLM calls: traces, token counts and spend, inside your own app. |
 | [padosoft/eval-harness](https://github.com/padosoft/eval-harness) | 7 | 9.4K | Golden dataset harness for RAG and LLM pipelines. |
-| [larswiegers/laravel-ai-evaluation](https://github.com/LarsWiegers/laravel-ai-evaluation) | 7 | 3.5K | Lightweight eval runner for AI features. |
+| [larswiegers/laravel-ai-evaluation](https://github.com/LarsWiegers/laravel-ai-evaluation) | 7 | 3.6K | Lightweight eval runner for AI features. |
 
 ## Token Optimization
 
@@ -145,10 +145,10 @@ Fit more context into fewer tokens.
 
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
-| [yethee/tiktoken](https://github.com/yethee/tiktoken-php) | 167 | 5M | PHP tiktoken port. Count tokens before you send them, not after the invoice arrives. |
-| [mischasigtermans/laravel-toon](https://github.com/mischasigtermans/laravel-toon) | 147 | 68.2K | TOON encoder and decoder wired into Laravel. |
-| [helgesverre/toon](https://github.com/HelgeSverre/toon-php) | 131 | 378.5K | Token-Oriented Object Notation. Noticeably cheaper than JSON when you are stuffing structured data into a prompt. |
-| [rajentrivedi/tokenizer-x](https://github.com/rajentrivedi/tokenizer-x) | 91 | 282.7K | Counts the tokens a prompt will cost across several model families. |
+| [yethee/tiktoken](https://github.com/yethee/tiktoken-php) | 167 | 5.1M | PHP tiktoken port. Count tokens before you send them, not after the invoice arrives. |
+| [mischasigtermans/laravel-toon](https://github.com/mischasigtermans/laravel-toon) | 147 | 68.8K | TOON encoder and decoder wired into Laravel. |
+| [helgesverre/toon](https://github.com/HelgeSverre/toon-php) | 131 | 382.3K | Token-Oriented Object Notation. Noticeably cheaper than JSON when you are stuffing structured data into a prompt. |
+| [rajentrivedi/tokenizer-x](https://github.com/rajentrivedi/tokenizer-x) | 91 | 283K | Counts the tokens a prompt will cost across several model families. |
 
 ## Content and Discoverability
 
@@ -157,8 +157,8 @@ Making a Laravel app legible to crawlers and answer engines.
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
 | [hszope/laravel-aigeo](https://github.com/GitHiteshZope/aigeo) | 71 | 1.7K | Generative engine optimization helpers for getting products surfaced inside AI answers. |
-| [relaticle/ink](https://github.com/relaticle/ink) | 15 | 5.7K | Filament-native publishing that emits AI-citable article markup. |
-| [schaefersoft/laravel-llms-txt](https://github.com/schaefersoft/laravel-llms-txt) | 8 | 4.5K | Generates llms.txt and llms-full.txt so crawlers get a clean map of your site. |
+| [relaticle/ink](https://github.com/relaticle/ink) | 15 | 5.8K | Filament-native publishing that emits AI-citable article markup. |
+| [schaefersoft/laravel-llms-txt](https://github.com/schaefersoft/laravel-llms-txt) | 8 | 4.6K | Generates llms.txt and llms-full.txt so crawlers get a clean map of your site. |
 
 ## Utilities
 
@@ -167,8 +167,8 @@ Focused single-purpose tools that did not fit anywhere else.
 | Package | Stars | Installs | What it does |
 | :--- | ---: | ---: | :--- |
 | [halilcosdu/laravel-chatbot](https://github.com/halilcosdu/laravel-chatbot) | 68 | 7.4K | Laravel-native chatbot built on the OpenAI Responses API. |
-| [eslam-reda-div/filament-copilot](https://github.com/eslam-reda-div/filament-copilot) | 45 | 22.9K | Drops an AI copilot panel into a Filament admin. |
-| [cboxdk/statamic-mcp](https://github.com/cboxdk/statamic-mcp) | 37 | 39.6K | MCP server for Statamic v6, if your Laravel app happens to be a Statamic site. |
+| [eslam-reda-div/filament-copilot](https://github.com/eslam-reda-div/filament-copilot) | 45 | 23.1K | Drops an AI copilot panel into a Filament admin. |
+| [cboxdk/statamic-mcp](https://github.com/cboxdk/statamic-mcp) | 37 | 40.2K | MCP server for Statamic v6, if your Laravel app happens to be a Statamic site. |
 | [statikbe/laravel-ai-translation](https://github.com/statikbe/laravel-ai-translation) | 2 | 5 | Modular AI translation gateway for Laravel language files. |
 
 <!-- LIST:END -->
