@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-10-08T18:55:24.670Z",
+  "generatedAt": "2026-10-08T21:44:15.925Z",
   "resolved": 58,
   "unresolved": [],
+  "transient": [],
   "warnings": [
     "devilsberg/laravel-mariadb-vector is archived on GitHub"
   ],
@@ -19,11 +20,11 @@
       "stale": false
     },
     "theodo-group/llphant": {
-      "downloads": 543886,
-      "downloadsMonthly": 45286,
+      "downloads": 545536,
+      "downloadsMonthly": 46936,
       "favers": 1716,
       "repository": "https://github.com/LLPhant/LLPhant",
-      "stars": 1716,
+      "stars": 1717,
       "pushedAt": "2026-10-06T20:31:13Z",
       "license": "MIT",
       "archived": false,
@@ -83,7 +84,7 @@
       "downloadsMonthly": 2608295,
       "favers": 5857,
       "repository": "https://github.com/openai-php/client",
-      "stars": 5835,
+      "stars": 5836,
       "pushedAt": "2026-10-07T10:27:07Z",
       "license": "MIT",
       "archived": false,
@@ -91,8 +92,8 @@
       "stale": false
     },
     "google-gemini-php/laravel": {
-      "downloads": 804515,
-      "downloadsMonthly": 78226,
+      "downloads": 807509,
+      "downloadsMonthly": 81220,
       "favers": 644,
       "repository": "https://github.com/google-gemini-php/laravel",
       "stars": 642,
@@ -115,20 +116,20 @@
       "stale": false
     },
     "anthropic-ai/sdk": {
-      "downloads": 2294642,
-      "downloadsMonthly": 837879,
+      "downloads": 2326662,
+      "downloadsMonthly": 869899,
       "favers": 187,
       "repository": "https://github.com/anthropics/anthropic-sdk-php",
       "stars": 188,
-      "pushedAt": "2026-10-07T18:04:07Z",
+      "pushedAt": "2026-10-08T20:40:09Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "mozex/anthropic-laravel": {
-      "downloads": 478649,
-      "downloadsMonthly": 51566,
+      "downloads": 481796,
+      "downloadsMonthly": 54713,
       "favers": 76,
       "repository": "https://github.com/mozex/anthropic-laravel",
       "stars": 74,
@@ -179,16 +180,16 @@
       "downloadsMonthly": 7949558,
       "favers": 850,
       "repository": "https://github.com/laravel/mcp",
-      "stars": 848,
-      "pushedAt": "2026-10-08T18:49:38Z",
+      "stars": 849,
+      "pushedAt": "2026-10-08T18:56:57Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "php-mcp/laravel": {
-      "downloads": 277306,
-      "downloadsMonthly": 50240,
+      "downloads": 278846,
+      "downloadsMonthly": 51780,
       "favers": 476,
       "repository": "https://github.com/php-mcp/laravel",
       "stars": 477,
@@ -427,8 +428,8 @@
       "stale": false
     },
     "spatie/boost-spatie-guidelines": {
-      "downloads": 382949,
-      "downloadsMonthly": 69981,
+      "downloads": 384638,
+      "downloadsMonthly": 71670,
       "favers": 109,
       "repository": "https://github.com/spatie/boost-spatie-guidelines",
       "stars": 109,
@@ -439,8 +440,8 @@
       "stale": false
     },
     "spatie/guidelines-skills": {
-      "downloads": 238820,
-      "downloadsMonthly": 67492,
+      "downloads": 241423,
+      "downloadsMonthly": 70095,
       "favers": 91,
       "repository": "https://github.com/spatie/guidelines-skills",
       "stars": 92,
@@ -648,7 +649,7 @@
       "favers": 15,
       "repository": "https://github.com/relaticle/ink",
       "stars": 15,
-      "pushedAt": "2026-10-08T03:09:53Z",
+      "pushedAt": "2026-10-08T19:59:07Z",
       "license": null,
       "archived": false,
       "abandoned": false,
