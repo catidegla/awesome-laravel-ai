@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-09T16:33:46.017Z",
+  "generatedAt": "2026-11-10T14:59:51.286Z",
   "resolved": 58,
   "unresolved": [],
   "transient": [],
   "warnings": [
-    "benbjurstrom/pgvector-scout has had no commits in 375 days",
+    "benbjurstrom/pgvector-scout has had no commits in 376 days",
     "devilsberg/laravel-mariadb-vector is marked abandoned on Packagist",
     "devilsberg/laravel-mariadb-vector is archived on GitHub"
   ],
   "packages": {
     "prism-php/prism": {
-      "downloads": 8280545,
-      "downloadsMonthly": 936816,
+      "downloads": 8316237,
+      "downloadsMonthly": 958110,
       "favers": 2431,
       "repository": "https://github.com/prism-php/prism",
       "stars": 2430,
@@ -22,23 +22,23 @@
       "stale": false
     },
     "theodo-group/llphant": {
-      "downloads": 594945,
-      "downloadsMonthly": 46895,
+      "downloads": 595778,
+      "downloadsMonthly": 47146,
       "favers": 1724,
       "repository": "https://github.com/LLPhant/LLPhant",
-      "stars": 1722,
-      "pushedAt": "2026-11-09T04:53:58Z",
+      "stars": 1721,
+      "pushedAt": "2026-11-09T17:46:41Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "cognesy/instructor-php": {
-      "downloads": 145263,
-      "downloadsMonthly": 6014,
+      "downloads": 145342,
+      "downloadsMonthly": 6035,
       "favers": 328,
       "repository": "https://github.com/cognesy/instructor-php",
-      "stars": 328,
+      "stars": 329,
       "pushedAt": "2026-11-02T18:25:35Z",
       "license": "MIT",
       "archived": false,
@@ -46,8 +46,8 @@
       "stale": false
     },
     "neuron-core/neuron-laravel": {
-      "downloads": 94513,
-      "downloadsMonthly": 16421,
+      "downloads": 95054,
+      "downloadsMonthly": 16729,
       "favers": 123,
       "repository": "https://github.com/neuron-core/neuron-laravel",
       "stars": 123,
@@ -58,8 +58,8 @@
       "stale": false
     },
     "moe-mizrak/laravel-openrouter": {
-      "downloads": 288777,
-      "downloadsMonthly": 28784,
+      "downloads": 289529,
+      "downloadsMonthly": 28855,
       "favers": 161,
       "repository": "https://github.com/moe-mizrak/laravel-openrouter",
       "stars": 160,
@@ -70,11 +70,11 @@
       "stale": false
     },
     "openai-php/laravel": {
-      "downloads": 13454481,
-      "downloadsMonthly": 1109770,
+      "downloads": 13509115,
+      "downloadsMonthly": 1143516,
       "favers": 3764,
       "repository": "https://github.com/openai-php/laravel",
-      "stars": 3760,
+      "stars": 3761,
       "pushedAt": "2026-10-31T16:31:24Z",
       "license": "MIT",
       "archived": false,
@@ -82,8 +82,8 @@
       "stale": false
     },
     "openai-php/client": {
-      "downloads": 38618217,
-      "downloadsMonthly": 3058856,
+      "downloads": 38790644,
+      "downloadsMonthly": 3183260,
       "favers": 5858,
       "repository": "https://github.com/openai-php/client",
       "stars": 5836,
@@ -94,11 +94,11 @@
       "stale": false
     },
     "google-gemini-php/laravel": {
-      "downloads": 910980,
-      "downloadsMonthly": 98258,
+      "downloads": 914368,
+      "downloadsMonthly": 100211,
       "favers": 645,
       "repository": "https://github.com/google-gemini-php/laravel",
-      "stars": 643,
+      "stars": 645,
       "pushedAt": "2026-10-12T16:01:09Z",
       "license": "MIT",
       "archived": false,
@@ -106,8 +106,8 @@
       "stale": false
     },
     "cloudstudio/ollama-laravel": {
-      "downloads": 170233,
-      "downloadsMonthly": 14534,
+      "downloads": 170579,
+      "downloadsMonthly": 14584,
       "favers": 479,
       "repository": "https://github.com/cloudstudio/ollama-laravel",
       "stars": 478,
@@ -118,20 +118,20 @@
       "stale": false
     },
     "anthropic-ai/sdk": {
-      "downloads": 4129785,
-      "downloadsMonthly": 1720896,
-      "favers": 197,
+      "downloads": 4183324,
+      "downloadsMonthly": 1746514,
+      "favers": 200,
       "repository": "https://github.com/anthropics/anthropic-sdk-php",
-      "stars": 200,
-      "pushedAt": "2026-11-05T19:00:41Z",
+      "stars": 201,
+      "pushedAt": "2026-11-09T18:52:04Z",
       "license": "Apache-2.0",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "mozex/anthropic-laravel": {
-      "downloads": 541517,
-      "downloadsMonthly": 55038,
+      "downloads": 542605,
+      "downloadsMonthly": 55289,
       "favers": 76,
       "repository": "https://github.com/mozex/anthropic-laravel",
       "stars": 74,
@@ -142,8 +142,8 @@
       "stale": false
     },
     "claude-php/claude-php-sdk-laravel": {
-      "downloads": 37029,
-      "downloadsMonthly": 3932,
+      "downloads": 37229,
+      "downloadsMonthly": 4089,
       "favers": 53,
       "repository": "https://github.com/claude-php/Claude-PHP-SDK-Laravel",
       "stars": 53,
@@ -154,11 +154,11 @@
       "stale": false
     },
     "deepseek-php/deepseek-php-client": {
-      "downloads": 124932,
-      "downloadsMonthly": 8618,
+      "downloads": 125202,
+      "downloadsMonthly": 8734,
       "favers": 478,
       "repository": "https://github.com/deepseek-php/deepseek-php-client",
-      "stars": 474,
+      "stars": 475,
       "pushedAt": "2026-05-24T22:30:32Z",
       "license": "MIT",
       "archived": false,
@@ -166,11 +166,11 @@
       "stale": false
     },
     "deepseek-php/deepseek-laravel": {
-      "downloads": 48924,
-      "downloadsMonthly": 1840,
+      "downloads": 48987,
+      "downloadsMonthly": 1875,
       "favers": 403,
       "repository": "https://github.com/deepseek-php/deepseek-laravel",
-      "stars": 401,
+      "stars": 402,
       "pushedAt": "2026-05-21T23:29:20Z",
       "license": "MIT",
       "archived": false,
@@ -178,20 +178,20 @@
       "stale": false
     },
     "laravel/mcp": {
-      "downloads": 53824452,
-      "downloadsMonthly": 10424692,
+      "downloads": 54406381,
+      "downloadsMonthly": 10807806,
       "favers": 866,
       "repository": "https://github.com/laravel/mcp",
       "stars": 864,
-      "pushedAt": "2026-11-06T21:17:56Z",
+      "pushedAt": "2026-11-10T13:40:40Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "php-mcp/laravel": {
-      "downloads": 335090,
-      "downloadsMonthly": 54115,
+      "downloads": 337429,
+      "downloadsMonthly": 55595,
       "favers": 475,
       "repository": "https://github.com/php-mcp/laravel",
       "stars": 477,
@@ -202,11 +202,11 @@
       "stale": false
     },
     "opgginc/laravel-mcp-server": {
-      "downloads": 80782,
-      "downloadsMonthly": 4095,
+      "downloads": 80946,
+      "downloadsMonthly": 4197,
       "favers": 330,
       "repository": "https://github.com/opgginc/laravel-mcp-server",
-      "stars": 330,
+      "stars": 331,
       "pushedAt": "2026-10-22T13:40:24Z",
       "license": "MIT",
       "archived": false,
@@ -214,8 +214,8 @@
       "stale": false
     },
     "kirschbaum-development/laravel-loop": {
-      "downloads": 21539,
-      "downloadsMonthly": 799,
+      "downloads": 21545,
+      "downloadsMonthly": 797,
       "favers": 131,
       "repository": "https://github.com/kirschbaum-development/laravel-loop",
       "stars": 131,
@@ -226,8 +226,8 @@
       "stale": false
     },
     "lucianotonet/laravel-telescope-mcp": {
-      "downloads": 60201,
-      "downloadsMonthly": 7347,
+      "downloads": 60422,
+      "downloadsMonthly": 7514,
       "favers": 23,
       "repository": "https://github.com/lucianotonet/laravel-telescope-mcp",
       "stars": 23,
@@ -238,8 +238,8 @@
       "stale": false
     },
     "onelearningcommunity/laravel-model-explorer": {
-      "downloads": 116041,
-      "downloadsMonthly": 25631,
+      "downloads": 117155,
+      "downloadsMonthly": 26722,
       "favers": 7,
       "repository": "https://github.com/One-Learning-Community/laravel-model-explorer",
       "stars": 7,
@@ -250,8 +250,8 @@
       "stale": false
     },
     "anilcancakir/laravel-agent-mcp": {
-      "downloads": 117300,
-      "downloadsMonthly": 28615,
+      "downloads": 118080,
+      "downloadsMonthly": 27912,
       "favers": 4,
       "repository": "https://github.com/anilcancakir/laravel-agent-mcp",
       "stars": 4,
@@ -262,8 +262,8 @@
       "stale": false
     },
     "redberry/mcp-client-laravel": {
-      "downloads": 167758,
-      "downloadsMonthly": 20142,
+      "downloads": 168167,
+      "downloadsMonthly": 20410,
       "favers": 13,
       "repository": "https://github.com/RedberryProducts/mcp-client-laravel",
       "stars": 13,
@@ -274,8 +274,8 @@
       "stale": false
     },
     "mattiasgeniar/filament-mcp": {
-      "downloads": 5300,
-      "downloadsMonthly": 3151,
+      "downloads": 5742,
+      "downloadsMonthly": 3559,
       "favers": 13,
       "repository": "https://github.com/mattiasgeniar/filament-mcp",
       "stars": 13,
@@ -286,8 +286,8 @@
       "stale": false
     },
     "maestroerror/laragent": {
-      "downloads": 257058,
-      "downloadsMonthly": 25185,
+      "downloads": 257635,
+      "downloadsMonthly": 25612,
       "favers": 644,
       "repository": "https://github.com/MaestroError/LarAgent",
       "stars": 645,
@@ -298,8 +298,8 @@
       "stale": false
     },
     "fomvasss/laravel-ai-tasks": {
-      "downloads": 7518,
-      "downloadsMonthly": 1584,
+      "downloads": 7559,
+      "downloadsMonthly": 1603,
       "favers": 41,
       "repository": "https://github.com/fomvasss/laravel-ai-tasks",
       "stars": 41,
@@ -310,8 +310,8 @@
       "stale": false
     },
     "alidaaer/laravel-ai-agent": {
-      "downloads": 2016,
-      "downloadsMonthly": 199,
+      "downloads": 2022,
+      "downloadsMonthly": 193,
       "favers": 31,
       "repository": "https://github.com/alidaaer/Laravel-AI-Agent",
       "stars": 31,
@@ -334,8 +334,8 @@
       "stale": false
     },
     "benbjurstrom/pgvector-scout": {
-      "downloads": 10002,
-      "downloadsMonthly": 167,
+      "downloads": 10005,
+      "downloadsMonthly": 169,
       "favers": 74,
       "repository": "https://github.com/benbjurstrom/pgvector-scout",
       "stars": 74,
@@ -346,8 +346,8 @@
       "stale": true
     },
     "mcpuishor/qdrant-laravel": {
-      "downloads": 19795,
-      "downloadsMonthly": 980,
+      "downloads": 19816,
+      "downloadsMonthly": 1001,
       "favers": 11,
       "repository": "https://github.com/mcpuishor/qdrant-laravel",
       "stars": 11,
@@ -358,8 +358,8 @@
       "stale": false
     },
     "droath/laravel-text-chunker": {
-      "downloads": 2234,
-      "downloadsMonthly": 77,
+      "downloads": 2235,
+      "downloadsMonthly": 78,
       "favers": 3,
       "repository": "https://github.com/droath/laravel-text-chunker",
       "stars": 3,
@@ -370,8 +370,8 @@
       "stale": false
     },
     "devilsberg/laravel-mariadb-vector": {
-      "downloads": 2577,
-      "downloadsMonthly": 444,
+      "downloads": 2591,
+      "downloadsMonthly": 458,
       "favers": 10,
       "repository": "https://github.com/erik-ros-devilsberg/laravel-mariadb-vector",
       "stars": 9,
@@ -382,8 +382,8 @@
       "stale": false
     },
     "brynj-digital/laravel-scout-vectorize": {
-      "downloads": 442,
-      "downloadsMonthly": 88,
+      "downloads": 444,
+      "downloadsMonthly": 89,
       "favers": 8,
       "repository": "https://github.com/brynj-digital/laravel-scout-vectorize",
       "stars": 8,
@@ -395,7 +395,7 @@
     },
     "vlados/laravel-related-content": {
       "downloads": 1334,
-      "downloadsMonthly": 40,
+      "downloadsMonthly": 31,
       "favers": 15,
       "repository": "https://github.com/vlados/laravel-related-content",
       "stars": 15,
@@ -418,8 +418,8 @@
       "stale": false
     },
     "laravel/boost": {
-      "downloads": 50079876,
-      "downloadsMonthly": 9172122,
+      "downloads": 50592186,
+      "downloadsMonthly": 9507025,
       "favers": 3689,
       "repository": "https://github.com/laravel/boost",
       "stars": 3686,
@@ -430,8 +430,8 @@
       "stale": false
     },
     "spatie/boost-spatie-guidelines": {
-      "downloads": 487365,
-      "downloadsMonthly": 98543,
+      "downloads": 490508,
+      "downloadsMonthly": 98856,
       "favers": 109,
       "repository": "https://github.com/spatie/boost-spatie-guidelines",
       "stars": 109,
@@ -442,8 +442,8 @@
       "stale": false
     },
     "spatie/guidelines-skills": {
-      "downloads": 345620,
-      "downloadsMonthly": 98473,
+      "downloads": 348546,
+      "downloadsMonthly": 98151,
       "favers": 95,
       "repository": "https://github.com/spatie/guidelines-skills",
       "stars": 98,
@@ -454,8 +454,8 @@
       "stale": false
     },
     "joshcirre/instruckt-laravel": {
-      "downloads": 61863,
-      "downloadsMonthly": 6557,
+      "downloads": 62226,
+      "downloadsMonthly": 6836,
       "favers": 176,
       "repository": "https://github.com/joshcirre/instruckt-laravel",
       "stars": 176,
@@ -466,8 +466,8 @@
       "stale": false
     },
     "mischasigtermans/laravel-altitude": {
-      "downloads": 32060,
-      "downloadsMonthly": 3156,
+      "downloads": 32115,
+      "downloadsMonthly": 3127,
       "favers": 122,
       "repository": "https://github.com/mischasigtermans/laravel-altitude",
       "stars": 122,
@@ -478,8 +478,8 @@
       "stale": false
     },
     "andreapollastri/larapilot": {
-      "downloads": 1739,
-      "downloadsMonthly": 793,
+      "downloads": 1763,
+      "downloadsMonthly": 806,
       "favers": 22,
       "repository": "https://github.com/andreapollastri/larapilot",
       "stars": 24,
@@ -490,8 +490,8 @@
       "stale": false
     },
     "sandermuller/package-boost-laravel": {
-      "downloads": 10612,
-      "downloadsMonthly": 2058,
+      "downloads": 10721,
+      "downloadsMonthly": 2138,
       "favers": 3,
       "repository": "https://github.com/SanderMuller/package-boost-laravel",
       "stars": 3,
@@ -502,8 +502,8 @@
       "stale": false
     },
     "mrpunyapal/laravel-auditor": {
-      "downloads": 55205,
-      "downloadsMonthly": 19962,
+      "downloads": 55772,
+      "downloadsMonthly": 19435,
       "favers": 60,
       "repository": "https://github.com/MrPunyapal/laravel-auditor",
       "stars": 60,
@@ -514,20 +514,20 @@
       "stale": false
     },
     "promptphp/deck": {
-      "downloads": 20002,
-      "downloadsMonthly": 4942,
+      "downloads": 20200,
+      "downloadsMonthly": 5112,
       "favers": 118,
       "repository": "https://github.com/promptphp/deck",
       "stars": 117,
-      "pushedAt": "2026-11-09T12:47:22Z",
+      "pushedAt": "2026-11-10T12:34:00Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "pestphp/pest-plugin-evals": {
-      "downloads": 218586,
-      "downloadsMonthly": 79315,
+      "downloads": 222749,
+      "downloadsMonthly": 82746,
       "favers": 5,
       "repository": "https://github.com/pestphp/pest-plugin-evals",
       "stars": 5,
@@ -538,8 +538,8 @@
       "stale": false
     },
     "padosoft/eval-harness": {
-      "downloads": 9828,
-      "downloadsMonthly": 383,
+      "downloads": 9844,
+      "downloadsMonthly": 399,
       "favers": 7,
       "repository": "https://github.com/padosoft/eval-harness",
       "stars": 7,
@@ -550,8 +550,8 @@
       "stale": false
     },
     "larswiegers/laravel-ai-evaluation": {
-      "downloads": 5077,
-      "downloadsMonthly": 1193,
+      "downloads": 5137,
+      "downloadsMonthly": 1253,
       "favers": 7,
       "repository": "https://github.com/LarsWiegers/laravel-ai-evaluation",
       "stars": 7,
@@ -562,20 +562,20 @@
       "stale": false
     },
     "spectra-php/laravel-spectra": {
-      "downloads": 5797,
-      "downloadsMonthly": 1261,
+      "downloads": 5832,
+      "downloadsMonthly": 1296,
       "favers": 27,
       "repository": "https://github.com/spectra-php/laravel-spectra",
       "stars": 27,
-      "pushedAt": "2026-11-09T10:19:20Z",
+      "pushedAt": "2026-11-10T13:20:42Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
       "stale": false
     },
     "helgesverre/toon": {
-      "downloads": 549047,
-      "downloadsMonthly": 133320,
+      "downloads": 557883,
+      "downloadsMonthly": 138376,
       "favers": 134,
       "repository": "https://github.com/HelgeSverre/toon-php",
       "stars": 134,
@@ -586,8 +586,8 @@
       "stale": false
     },
     "mischasigtermans/laravel-toon": {
-      "downloads": 82869,
-      "downloadsMonthly": 10861,
+      "downloads": 83316,
+      "downloadsMonthly": 11131,
       "favers": 148,
       "repository": "https://github.com/mischasigtermans/laravel-toon",
       "stars": 148,
@@ -598,8 +598,8 @@
       "stale": false
     },
     "yethee/tiktoken": {
-      "downloads": 5719425,
-      "downloadsMonthly": 494917,
+      "downloads": 5736455,
+      "downloadsMonthly": 506496,
       "favers": 167,
       "repository": "https://github.com/yethee/tiktoken-php",
       "stars": 167,
@@ -610,8 +610,8 @@
       "stale": false
     },
     "rajentrivedi/tokenizer-x": {
-      "downloads": 291655,
-      "downloadsMonthly": 6682,
+      "downloads": 291951,
+      "downloadsMonthly": 6936,
       "favers": 92,
       "repository": "https://github.com/rajentrivedi/tokenizer-x",
       "stars": 91,
@@ -622,8 +622,8 @@
       "stale": false
     },
     "schaefersoft/laravel-llms-txt": {
-      "downloads": 6289,
-      "downloadsMonthly": 1241,
+      "downloads": 6311,
+      "downloadsMonthly": 1253,
       "favers": 9,
       "repository": "https://github.com/schaefersoft/laravel-llms-txt",
       "stars": 9,
@@ -634,8 +634,8 @@
       "stale": false
     },
     "hszope/laravel-aigeo": {
-      "downloads": 2059,
-      "downloadsMonthly": 314,
+      "downloads": 2069,
+      "downloadsMonthly": 321,
       "favers": 72,
       "repository": "https://github.com/GitHiteshZope/aigeo",
       "stars": 72,
@@ -646,8 +646,8 @@
       "stale": false
     },
     "relaticle/ink": {
-      "downloads": 9678,
-      "downloadsMonthly": 3168,
+      "downloads": 9826,
+      "downloadsMonthly": 3242,
       "favers": 17,
       "repository": "https://github.com/relaticle/ink",
       "stars": 17,
@@ -670,8 +670,8 @@
       "stale": false
     },
     "eslam-reda-div/filament-copilot": {
-      "downloads": 33742,
-      "downloadsMonthly": 7832,
+      "downloads": 33922,
+      "downloadsMonthly": 7851,
       "favers": 47,
       "repository": "https://github.com/eslam-reda-div/filament-copilot",
       "stars": 47,
@@ -682,8 +682,8 @@
       "stale": false
     },
     "halilcosdu/laravel-chatbot": {
-      "downloads": 7854,
-      "downloadsMonthly": 341,
+      "downloads": 7875,
+      "downloadsMonthly": 356,
       "favers": 68,
       "repository": "https://github.com/halilcosdu/laravel-chatbot",
       "stars": 68,
@@ -694,12 +694,12 @@
       "stale": false
     },
     "cboxdk/statamic-mcp": {
-      "downloads": 59550,
-      "downloadsMonthly": 15768,
+      "downloads": 59782,
+      "downloadsMonthly": 15854,
       "favers": 39,
       "repository": "https://github.com/cboxdk/statamic-mcp",
       "stars": 40,
-      "pushedAt": "2026-11-07T12:31:05Z",
+      "pushedAt": "2026-11-10T14:50:28Z",
       "license": "MIT",
       "archived": false,
       "abandoned": false,
